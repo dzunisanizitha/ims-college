@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMS College | Contact Us</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Font Awesome CDN for social icons -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+
+  <!-- Main CSS -->
+<link rel="stylesheet" href="../css/style.css" />
+
+</head>
+
+<body>
+<div class="topbar">
+  <div class="topbar-container">
+    <a href="tel:0136961084" class="topbar-link">
+      <i class="fas fa-phone"></i> 013 696 1084
+    </a>
+    <a href="https://wa.me/27826803618" target="_blank" class="topbar-link">
+      <i class="fab fa-whatsapp"></i> Chat with us
+    </a>
+<a href="https://www.google.com/maps/place/23+Botha+Ave,+eMalahleni,+1035/" target="_blank" class="topbar-link">
+  <i class="fas fa-map-marker-alt"></i> Witbank Campus
+</a>
+  </div>
+</div>
+
+
+<!-- MAIN HEADER -->
+<header class="main-header">
+  <div class="nav-container">
+<div class="logo">
+  <a href="index.html">
+    <img src="../images/ims logo.webp" alt="IMS College Logo" class="logo-img">
+    <span class="logo-text">IMS COLLEGE</span>
+  </a>
+</div>
+
+    <!-- HAMBURGER ICON -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- NAV LINKS FOR DESKTOP -->
+    <nav class="nav-menu-desktop">
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About Us</a>
+      <a href="../Programs/index.html">Programs</a>
+      <a href="../Admissions/index.html">Admissions</a>
+      <a href="../Contact/index.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- MOBILE SLIDE-IN SIDEBAR -->
+  <nav class="nav-menu-mobile" id="navMenu">
+    <!-- TOP SECTION -->
+    <div class="sidebar-top">
+      <div class="sidebar-logo">IMS College</div>
+      <p class="sidebar-tagline">Empowering Future Leaders</p>
+    </div>
+
+    <!-- MENU LINKS -->
+    <div class="sidebar-links">
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About Us</a>
+      <a href="../Programs/index.html">Programs</a>
+      <a href="../Admissions/index.html">Admissions</a>
+      <a href="../Contact/index.html">Contact</a>
+    </div>
+
+    <!-- BOTTOM SOCIAL ICONS -->
+<!-- BOTTOM SOCIAL ICONS -->
+<div class="sidebar-bottom">
+  <a href="https://www.facebook.com/profile.php?id=61550783250562" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/ims_college?igsh=MWt2amxwbWkzMXg0MQ==" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.tiktok.com/@industrialmultiskills?_r=1&_t=ZS-92KOxSYaQcv" target="_blank">
+    <i class="fab fa-tiktok"></i>
+  </a>
+</div>
+
+
+  </nav>
+</header>
+
+<!-- CONTACT HERO -->
+<section class="page-hero contact-hero">
+  <!-- IMAGE IN HTML -->
+  <img src="../images/college-wall-1.webp" alt="IMS College Contact" class="page-hero-image" />
+
+  <!-- OVERLAY -->
+  <div class="page-hero-overlay"></div>
+
+  <!-- CONTENT -->
+  <div class="page-hero-content">
+    <h1>Contact Us</h1>
+    <p>Get in touch with IMS College for inquiries or support</p>
+  </div>
+</section>
+
+<!-- CONTACT INFO SECTION -->
+<section class="contact-info reveal">
+  <div class="contact-container">
+    <h2>Reach Out to Us</h2>
+    <p class="section-subtitle">We’re here to help. Choose any of the options below.</p>
+
+    <div class="contact-grid">
+      <!-- Phone -->
+      <div class="contact-card">
+        <i class="fas fa-phone"></i>
+        <h4>Call Us</h4>
+        <p><a href="tel:0136961084">013 696 1084</a></p>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="contact-card">
+        <i class="fab fa-whatsapp"></i>
+        <h4>WhatsApp</h4>
+        <p><a href="https://wa.me/27826803618" target="_blank">Chat with us</a></p>
+      </div>
+
+      <!-- Email -->
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <h4>Email Us</h4>
+        <p><a href="mailto:info@imscollegesa.co.za">info@imscollegesa.co.za</a></p>
+      </div>
+
+      <!-- Campus Location -->
+      <div class="contact-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h4>Visit Our Campus</h4>
+        <p>
+          <a href="https://www.google.com/maps/place/23+Botha+Ave,+eMalahleni,+1035/" target="_blank">
+            23 Botha Avenue, Witbank, Mpumalanga
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT FORM SECTION -->
+<section class="contact-form-section reveal">
+  <div class="contact-form-container">
+    <h2>Send Us a Message</h2>
+    <p class="form-subtitle">
+      Complete the form below and our team will get back to you. (Currently not connected to email)
+    </p>
+
+    <form class="contact-form" method="POST" action="send-contact.php">
+      <div class="form-group">
+        <div class="form-row">
+          <input type="text" name="fullname" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="form-row">
+          <input type="tel" name="phone" placeholder="Phone Number">
+          <input type="text" name="subject" placeholder="Subject" required>
+        </div>
+
+        <div class="form-row">
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary form-submit">Send Message</button>
+
+      <p class="form-note">
+        <b>Note:</b> By submitting this form you agree that IMS College may contact you. Submission does not guarantee response or enrollment.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- MAP SECTION -->
+<section class="contact-map reveal">
+  <div class="map-container">
+    <h2>Our Location</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.123456789012!2d29.242000!3d-25.867000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eecacabcdef123%3A0xabcdef1234567890!2s23%20Botha%20Ave%2C%20eMalahleni%2C%201035!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" 
+      width="100%" 
+      height="400" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<!-- ===== ADMISSIONS CTA ===== -->
+<section class="admissions-cta reveal">
+  <div class="cta-container">
+    <h2>Need Help With Your Application?</h2>
+    <p>Our admissions team is ready to guide you every step of the way.</p>
+    <a href="https://wa.me/27826803618" class="btn-secondary">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<!-- ACCREDITATION -->
+<section class="accreditation">
+  <img 
+    src="../images/accreditation-banner.webp" 
+    alt="IMS College DHET Accredited and QCTO Aligned"
+    class="accreditation-image"
+  >
+</section>
+
+  <footer class="main-footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h4>Send a Quick Mail</h4>
+      <p>info@ismcollegesa.co.za</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Need Help? Call us now:</h4>
+      <p>013 696 1084</p>
+    </div>
+
+<div class="footer-box">
+  <h4>Visit Our Campus</h4>
+  <p>
+    <a href="https://www.google.com/maps/place/23+Botha+Ave,+eMalahleni,+1035/" target="_blank" class="footer-map-link">
+      23 Botha Avenue<br>
+      Witbank, Mpumalanga
+    </a>
+  </p>
+</div>
+
+
+
+    <div class="footer-box">
+      <h4>Follow Us</h4>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/profile.php?id=61550783250562" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/ims_college?igsh=MWt2amxwbWkzMXg0MQ==" target="_blank">
+          <i class="fab fa-instagram"></i>
+        <a href="https://www.tiktok.com/@industrialmultiskills?_r=1&_t=ZS-92KOxSYaQcv" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<div class="footer-bottom">
+  <p>© 2025 IMS College. All Rights Reserved.</p>
+  <p class="site-credit">
+    Designed & Developed by 
+    <a href="https://www.aridesign.co.za" target="_blank" rel="noopener">
+      AriDesign
+    </a>
+  </p>
+</div>
+</footer>
+
+
+  <!-- JAVASCRIPT HUmbuger-->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('open');
+    });
+  </script>
+
+  <!-- JAVASCRIPT For Scroll Reveal Animation>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+
+  function revealOnScroll() {
+    reveals.forEach(el => {
+      const top = el.getBoundingClientRect().top;
+      const trigger = window.innerHeight - 120;
+      if (top < trigger) el.classList.add('active');
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  revealOnScroll(); // Trigger animation on page load
+</script>
+
+
+</body>
+</html>

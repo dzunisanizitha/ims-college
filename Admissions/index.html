@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMS College | Admissions</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Font Awesome CDN for social icons -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+
+  <!-- Main CSS -->
+<link rel="stylesheet" href="../css/style.css" />
+
+</head>
+
+<body>
+<div class="topbar">
+  <div class="topbar-container">
+    <a href="tel:0136961084" class="topbar-link">
+      <i class="fas fa-phone"></i> 013 696 1084
+    </a>
+    <a href="https://wa.me/27826803618" target="_blank" class="topbar-link">
+      <i class="fab fa-whatsapp"></i> Chat with us
+    </a>
+<a href="https://www.google.com/maps/place/23+Botha+Ave,+eMalahleni,+1035/" target="_blank" class="topbar-link">
+  <i class="fas fa-map-marker-alt"></i> Witbank Campus
+</a>
+  </div>
+</div>
+
+
+<!-- MAIN HEADER -->
+<header class="main-header">
+  <div class="nav-container">
+<div class="logo">
+  <a href="index.html">
+    <img src="../images/ims logo.webp" alt="IMS College Logo" class="logo-img">
+    <span class="logo-text">IMS COLLEGE</span>
+  </a>
+</div>
+
+    <!-- HAMBURGER ICON -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- NAV LINKS FOR DESKTOP -->
+    <nav class="nav-menu-desktop">
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About Us</a>
+      <a href="../Programs/index.html">Programs</a>
+      <a href="../Admissions/index.html">Admissions</a>
+      <a href="../Contact/index.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- MOBILE SLIDE-IN SIDEBAR -->
+  <nav class="nav-menu-mobile" id="navMenu">
+    <!-- TOP SECTION -->
+    <div class="sidebar-top">
+      <div class="sidebar-logo">IMS College</div>
+      <p class="sidebar-tagline">Empowering Future Leaders</p>
+    </div>
+
+    <!-- MENU LINKS -->
+    <div class="sidebar-links">
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About Us</a>
+      <a href="../Programs/index.html">Programs</a>
+      <a href="../Admissions/index.html">Admissions</a>
+      <a href="../Contact/index.html">Contact</a>
+    </div>
+
+    <!-- BOTTOM SOCIAL ICONS -->
+<!-- BOTTOM SOCIAL ICONS -->
+<div class="sidebar-bottom">
+  <a href="https://www.facebook.com/profile.php?id=61550783250562" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/ims_college?igsh=MWt2amxwbWkzMXg0MQ==" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.tiktok.com/@industrialmultiskills?_r=1&_t=ZS-92KOxSYaQcv" target="_blank">
+    <i class="fab fa-tiktok"></i>
+  </a>
+</div>
+
+
+  </nav>
+</header>
+
+<!-- ADMISSIONS HERO -->
+<section class="page-hero admissions-hero">
+  <img src="../images/college-facility-1.webp" alt="IMS College Admissions" class="page-hero-image" />
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <h1>Admissions</h1>
+    <p>Start your journey with IMS College today</p>
+  </div>
+</section>
+
+<!-- ADMISSION STEPS -->
+<section class="admissions-steps reveal">
+  <div class="steps-container">
+    <h2>How to Apply</h2>
+    <p class="section-subtitle">A simple and guided admissions process</p>
+    <div class="steps-grid">
+      <div class="step-card"><span>1</span><h3>Choose Your Program</h3><p>Explore our industry-aligned programs and select the one that fits your career goals.</p></div>
+      <div class="step-card"><span>2</span><h3>Submit Application</h3><p>Complete the application form online or visit our campus for assistance.</p></div>
+      <div class="step-card"><span>3</span><h3>Document Verification</h3><p>Submit required documents for assessment and verification.</p></div>
+      <div class="step-card"><span>4</span><h3>Registration & Payment</h3><p>Secure your space by completing registration and payment arrangements.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ENTRY REQUIREMENTS -->
+<section class="entry-requirements reveal">
+  <div class="requirements-container">
+    <h2>Entry Requirements</h2>
+    <div class="requirements-grid">
+      <div class="requirement-box"><i class="fas fa-id-card"></i><h4>Certified ID Copy</h4></div>
+      <div class="requirement-box"><i class="fas fa-file-alt"></i><h4>Latest Academic Results</h4></div>
+      <div class="requirement-box"><i class="fas fa-user-graduate"></i><h4>Relevant Qualifications</h4></div>
+      <div class="requirement-box"><i class="fas fa-clipboard-check"></i><h4>Completed Application Form</h4></div>
+    </div>
+  </div>
+</section>
+
+<!-- ADMISSIONS FORM -->
+<section class="admissions-form-section reveal">
+  <div class="admissions-form-container">
+    <h2>Apply for Admission</h2>
+    <p class="form-subtitle">Complete the form below and our admissions team will contact you.</p>
+
+    <form class="admissions-form" method="POST" action="send-admission.php">
+        
+      <!-- PERSONAL DETAILS -->
+      <div class="form-group">
+        <h3>Personal Information</h3>
+        <div class="form-row">
+          <input type="text" name="first_name" placeholder="First Name" required>
+          <input type="text" name="last_name" placeholder="Last Name" required>
+        </div>
+        <div class="form-row">
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="tel" name="phone" placeholder="Phone Number" required>
+        </div>
+        <div class="form-row">
+          <input type="text" name="id_number" placeholder="ID Number" required>
+          <select name="gender" required>
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- COURSE DETAILS -->
+      <div class="form-group">
+        <h3>Course Selection</h3>
+        <div class="form-row">
+          <select name="program" required>
+            <option value="">Select Program</option>
+            <option>Engineering Studies</option>
+            <option>Chemical Studies</option>
+            <option>Business Studies</option>
+            <option>Human Resources</option>
+            <option>Mine Machinery</option>
+            <option>Safety Management</option>
+          </select>
+          <select name="campus" required>
+            <option value="">Preferred Campus</option>
+            <option>Witbank</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- ADDITIONAL INFO -->
+      <div class="form-group">
+        <h3>Additional Information</h3>
+        <textarea name="message" rows="5" placeholder="Any additional information or questions"></textarea>
+      </div>
+
+      <!-- SUBMIT BUTTON -->
+      <button type="submit" class="btn-primary form-submit">Submit Application</button>
+
+      <!-- DISCLAIMER -->
+      <p class="form-note">
+        <b>Note:</b> By submitting this application form, you acknowledge that submission does not guarantee admission. IMS College reserves the right to review all applications and make final decisions based on eligibility and requirements.
+      </p>
+    </form>
+  </div>
+</section>
+
+
+<!-- ===== ADMISSIONS CTA ===== -->
+<section class="admissions-cta reveal">
+  <div class="cta-container">
+    <h2>Need Help With Your Application?</h2>
+    <p>Our admissions team is ready to guide you every step of the way.</p>
+    <a href="https://wa.me/27826803618" class="btn-secondary">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<!-- ACCREDITATION -->
+<section class="accreditation">
+  <img 
+    src="../images/accreditation-banner.webp" 
+    alt="IMS College DHET Accredited and QCTO Aligned"
+    class="accreditation-image"
+  >
+</section>
+
+  <footer class="main-footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h4>Send a Quick Mail</h4>
+      <p>info@ismcollegesa.co.za</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Need Help? Call us now:</h4>
+      <p>013 696 1084</p>
+    </div>
+
+<div class="footer-box">
+  <h4>Visit Our Campus</h4>
+  <p>
+    <a href="https://www.google.com/maps/place/23+Botha+Ave,+eMalahleni,+1035/" target="_blank" class="footer-map-link">
+      23 Botha Avenue<br>
+      Witbank, Mpumalanga
+    </a>
+  </p>
+</div>
+
+
+
+    <div class="footer-box">
+      <h4>Follow Us</h4>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/profile.php?id=61550783250562" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/ims_college?igsh=MWt2amxwbWkzMXg0MQ==" target="_blank">
+          <i class="fab fa-instagram"></i>
+        <a href="https://www.tiktok.com/@industrialmultiskills?_r=1&_t=ZS-92KOxSYaQcv" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<div class="footer-bottom">
+  <p>© 2025 IMS College. All Rights Reserved.</p>
+  <p class="site-credit">
+    Designed & Developed by 
+    <a href="https://www.aridesign.co.za" target="_blank" rel="noopener">
+      AriDesign
+    </a>
+  </p>
+</div>
+</footer>
+
+
+  <!-- JAVASCRIPT HUmbuger-->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('open');
+    });
+  </script>
+
+  <!-- JAVASCRIPT For Scroll Reveal Animation>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+
+  function revealOnScroll() {
+    reveals.forEach(el => {
+      const top = el.getBoundingClientRect().top;
+      const trigger = window.innerHeight - 120;
+      if (top < trigger) el.classList.add('active');
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  revealOnScroll(); // Trigger animation on page load
+</script>
+
+
+</body>
+</html>
