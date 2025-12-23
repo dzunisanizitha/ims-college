@@ -99,26 +99,37 @@
   </nav>
 </header>
 
-
-  <!-- HERO SECTION -->
 <section class="hero-section">
-  <div class="hero-slideshow">
-    <img src="images/college-facility-1.webp" alt="IMS College Campus" class="hero-image" />
-    <img src="images/college-wall-1.webp" alt="IMS College Campus" class="hero-image" />
-    <img src="images/colleques-1.webp" alt="IMS College Campus" class="hero-image" />
+  <!-- Poster -->
+  <div class="hero-poster-wrapper">
+    <img src="images/intake-flyer.webp" alt="Register for Classes" class="hero-poster">
   </div>
 
+  <!-- College Background -->
+  <img src="images/college-facility-1.webp" alt="IMS College Campus" class="hero-background">
+
+  <!-- Overlay -->
   <div class="hero-overlay"></div>
+
+  <!-- Hero Content -->
   <div class="hero-content">
-    <h1>Building Business, Building Communities</h1>
-    <p>Multi-skills training designed for today’s fast-paced world.</p>
-  <div class="hero-buttons">
-     <a href="Programs/index.html" class="btn-primary">View Programs</a>
-     <a href="Admissions/index.html" class="btn-secondary">Apply Now</a>
-     <a href="about/index.html#campus-slideshow" class="btn-outline">View Campus Photos</a>
-</div>
+    <h1>Start Your Journey Today!</h1>
+    <p>Matric Rewrite & Professional Programs – Enroll Now and Build Your Future</p>
+
+    <div class="hero-buttons">
+      <a href="Admissions/index.html" class="btn-primary">Apply Now</a>
+      <a href="Programs/index.html" class="btn-secondary">View Programs</a>
+      <a href="about/index.html#campus-slideshow" class="btn-campus">View Campus Photos</a>
+    </div>
   </div>
 </section>
+
+
+
+
+
+
+
 
 
  <!-- ABOUT PREVIEW -->
@@ -211,7 +222,7 @@
 <!-- ACCREDITATION -->
 <section class="accreditation">
   <img 
-    src="images/accreditation-banner.webp" 
+    src="images/accredation -pic.webp" 
     alt="IMS College DHET Accredited and QCTO Aligned"
     class="accreditation-image"
   >
@@ -237,7 +248,8 @@
   <p>
     <a href="https://www.google.com/maps/place/23+Botha+Ave,+eMalahleni,+1035/" target="_blank" class="footer-map-link">
       23 Botha Avenue<br>
-      Witbank, Mpumalanga
+      Witbank, Mpumalanga<br>
+      Next to Downtown Park
     </a>
   </p>
 </div>
@@ -297,6 +309,42 @@
   window.addEventListener('scroll', revealOnScroll);
   revealOnScroll(); // Trigger animation on page load
 </script>
+
+
+
+<script>
+window.addEventListener('load', () => {
+  const poster = document.querySelector('.hero-poster');
+  const bg = document.querySelector('.hero-background');
+  const overlay = document.querySelector('.hero-overlay');
+  const content = document.querySelector('.hero-content');
+
+  const cycleTime = 6000; // total cycle time in ms
+
+  function heroCycle() {
+    // Step 1: Poster visible
+    poster.style.opacity = '1';
+    bg.style.opacity = '0';
+    overlay.style.opacity = '0';
+    content.style.opacity = '0';
+
+    // Step 2: After 3s, fade poster out, fade background + content in
+    setTimeout(() => {
+      poster.style.opacity = '0';
+      bg.style.opacity = '1';
+      overlay.style.opacity = '1';
+      content.style.opacity = '1';
+    }, 3000);
+  }
+
+  heroCycle(); // initial cycle
+  setInterval(heroCycle, cycleTime); // repeat every 6 seconds
+});
+</script>
+
+
+
+
 
 
 </body>
