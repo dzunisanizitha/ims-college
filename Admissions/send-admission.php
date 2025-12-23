@@ -10,7 +10,7 @@ require '../PHPMailer/src/SMTP.php';
 // SMTP credentials from Afrihost
 $smtpHost = 'mail.imscollegesa.co.za';
 $smtpUsername = 'info@imscollegesa.co.za';
-$smtpPassword = 'IMS082680';                      
+$smtpPassword = '#IMS082680';                      
 $smtpPort = '465/587/993';
 $toEmail = 'info@imscollegesa.co.za';
 
