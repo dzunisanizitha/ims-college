@@ -1,0 +1,15 @@
+# 🔐 Secrets / SMTP
+config/mail-config.php
+.env
+
+# 📧 PHPMailer (vendor files)
+PHPMailer/
+vendor/
+
+# 🧰 Editor & OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
